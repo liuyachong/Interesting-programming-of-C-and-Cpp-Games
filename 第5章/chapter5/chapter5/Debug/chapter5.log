@@ -1,0 +1,41 @@
+﻿生成启动时间为 2020/4/12 17:09:38。
+     1>项目“E:\0_备课资料\4_C语言备课\C++趣味游戏开发\写书案例代码视频\第5章\chapter5\chapter5\chapter5.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\chapter5.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>e:\0_备课资料\4_c语言备课\c++趣味游戏开发\写书案例代码视频\第5章\chapter5\chapter5\main.cpp(7): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\0_备课资料\4_c语言备课\c++趣味游戏开发\写书案例代码视频\第5章\chapter5\chapter5\main.cpp(27): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>e:\0_备课资料\4_c语言备课\c++趣味游戏开发\写书案例代码视频\第5章\chapter5\chapter5\main.cpp(39): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>e:\0_备课资料\4_c语言备课\c++趣味游戏开发\写书案例代码视频\第5章\chapter5\chapter5\main.cpp(39): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>e:\0_备课资料\4_c语言备课\c++趣味游戏开发\写书案例代码视频\第5章\chapter5\chapter5\main.cpp(42): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(130) : 参见“kbhit”的声明
+     1>e:\0_备课资料\4_c语言备课\c++趣味游戏开发\写书案例代码视频\第5章\chapter5\chapter5\main.cpp(51): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>e:\0_备课资料\4_c语言备课\c++趣味游戏开发\写书案例代码视频\第5章\chapter5\chapter5\main.cpp(51): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>e:\0_备课资料\4_c语言备课\c++趣味游戏开发\写书案例代码视频\第5章\chapter5\chapter5\main.cpp(64): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\0_备课资料\4_c语言备课\c++趣味游戏开发\写书案例代码视频\第5章\chapter5\chapter5\main.cpp(64): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>e:\0_备课资料\4_c语言备课\c++趣味游戏开发\写书案例代码视频\第5章\chapter5\chapter5\main.cpp(65): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\0_备课资料\4_c语言备课\c++趣味游戏开发\写书案例代码视频\第5章\chapter5\chapter5\main.cpp(65): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\0_备课资料\4_c语言备课\c++趣味游戏开发\写书案例代码视频\第5章\chapter5\chapter5\main.cpp(68): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using _swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\wchar.h(761) : 参见“_swprintf”的声明
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\chapter5.exe.embed.manifest.res" Debug\chapter5_manifest.rc 
+       Link:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\0_备课资料\4_C语言备课\C++趣味游戏开发\写书案例代码视频\第5章\chapter5\Debug\chapter5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\chapter5.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\0_备课资料\4_C语言备课\C++趣味游戏开发\写书案例代码视频\第5章\chapter5\Debug\chapter5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\0_备课资料\4_C语言备课\C++趣味游戏开发\写书案例代码视频\第5章\chapter5\Debug\chapter5.lib" /MACHINE:X86 Debug\chapter5.exe.embed.manifest.res
+         Debug\main.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\chapter5.exe.embed.manifest" /manifest Debug\chapter5.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\chapter5.exe.embed.manifest.res" Debug\chapter5_manifest.rc 
+       LinkEmbedManifest:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\0_备课资料\4_C语言备课\C++趣味游戏开发\写书案例代码视频\第5章\chapter5\Debug\chapter5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\chapter5.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\0_备课资料\4_C语言备课\C++趣味游戏开发\写书案例代码视频\第5章\chapter5\Debug\chapter5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\0_备课资料\4_C语言备课\C++趣味游戏开发\写书案例代码视频\第5章\chapter5\Debug\chapter5.lib" /MACHINE:X86 Debug\chapter5.exe.embed.manifest.res
+         Debug\main.obj
+         chapter5.vcxproj -> E:\0_备课资料\4_C语言备课\C++趣味游戏开发\写书案例代码视频\第5章\chapter5\Debug\chapter5.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\chapter5.unsuccessfulbuild”。
+         正在对“Debug\chapter5.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\0_备课资料\4_C语言备课\C++趣味游戏开发\写书案例代码视频\第5章\chapter5\chapter5\chapter5.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.51
